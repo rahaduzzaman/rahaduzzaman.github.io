@@ -13,21 +13,35 @@ a, a:hover, a:focus, a:active {
 /*========================
  * navbar-top
  =========================*/
-.social ul li {
-    padding-left: 20px;
 
+
+.social ul {
+    margin: 0;
+    padding: 5px;
 }
-.social ul li a {
-    text-decoration: none;
-    padding: 0px;
-    color: #506A85;
+
+.social ul li {
+    list-style: none outside none;
+    display: inline-block;
 }
 
 /*========================
  * Main menu
  =========================*/
-.menu ul li a {
+.navbar-default .navbar-nav > li > a {
     color: #506A85;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:active {
+    color: #00BC9C;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:active {
+    color: #00BC9C;
+    background-color: #e7e7e7;
 }
 
 /*========================
