@@ -1,11 +1,11 @@
 body {
 	font-family: 'Source Sans Pro', sans-serif;
-       
+
 }
 a, a:hover, a:focus, a:active {
 	text-decoration: none;
 	border: 0px;
-       
+
 }
 .img-box {
 	overflow: hidden;
@@ -47,7 +47,7 @@ a, a:hover, a:focus, a:active {
 /*========================
  * slider carousel
  =========================*/
-.overlay { 
+.overlay {
   color:#fff;
   position:absolute;
   z-index:0;
@@ -92,18 +92,45 @@ a, a:hover, a:focus, a:active {
     opacity: 1;
 }
 
+@media (max-width: 767px) {
+	.carousel .item {
+	  height: 400px;
+	  background-color:#555;
+	}
+	.carousel img {
+	  min-height: 100%;
+	}
+	.overlay {
+	  top:8%;
+	}
+	.overlay h1 {
+	    font-size: 48px;
+	    font-weight: 800;
+	}
+	.overlay p {
+		font-size: 16px;
+		line-height: 20px;
+		padding: 10px 20px;
+	}
+	.overlay button {
+		margin: 20px 0px;
+		padding: 10px 15px;
+		font-size: 16px;
+	}
+}
+
 /*========================
  * Portfolio
  =========================*/
 .port-thumb .media .media-left {
-    float: left; 
+    float: left;
     padding-right: 30px;
     font-size: 64px;
     line-height: 63px;
     font-weight: 800;
 }
 .port-thumb .port-body {
-   
+
 }
 /*========================
  * Latest work
