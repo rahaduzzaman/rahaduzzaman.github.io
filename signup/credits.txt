@@ -1,0 +1,4 @@
+label animation effect:
+______________________
+
+http://thecodeplayer.com/walkthrough/animating-float-labels-jquery-css3
