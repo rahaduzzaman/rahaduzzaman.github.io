@@ -1,3 +1,8 @@
+jQuery(document).on('click', '.mega-dropdown', function(e) {
+  e.stopPropagation()
+})
+
+
 $(document).ready(function () {
     $('.owl-slider').owlCarousel({
         //center: true,
@@ -8,8 +13,8 @@ $(document).ready(function () {
         items: 4,
         smartSpeed: 500,
         /*autoplay : true,*/
-        // : 1000, 
-        //autoplayHoverPause: true, 
+        // : 1000,
+        //autoplayHoverPause: true,
         responsive: {
             320: {
                 items: 1,
@@ -33,4 +38,3 @@ $(document).ready(function () {
         pause: true
     });
 });
-

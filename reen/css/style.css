@@ -161,10 +161,29 @@ a, a:hover, a:focus, a:active {
 .contact a h5 {
 	font-weight: 800;
 }
+.contact a h5:hover {
+	color: #fff;
+	-moz-transition: color 0.3s; /* For firefox */
+  transition: color 0.3s;
+}
 .contact .icon {
 	overflow: hidden;
 	width: 135px;
 	height: 35px;
+}
+.anim {
+	position: relative;
+	-moz-animation-name: example; /* ==*/
+	-moz-animation-duration: 2s; /* */
+	-moz-animation-iteration-count: infinite; /* */
+	animation-name: example;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    50%  {left:10px; top:0px;}
+    100% {left:0px; top:0px;}
 }
 .contact .icon img {
 	width: 100%;
