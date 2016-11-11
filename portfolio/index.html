@@ -76,66 +76,81 @@
 		</section>
 		<section>
 			<!-- Set your background image for this header on the line below. -->
-			<header class="intro-header" id="intro" style="background-image: url('images/slider.png')">
-				<div class="container">
-					<div class="row">
-						<div class="slider-item">
-							<div class="caption text-white">
-								<h1 style="font-size: 50px">Hi</h1>
-								<h1 style="font-size: 62px">I'm John</h1>
-								<p class="subheading text-uppercase">
-									Interested About
-								</p>
-								<p class="subheading text-uppercase">
-									Latest Web Design Trends
-								</p>
+			<header class="intro-header" id="intro" style="">
+				<section id="slide-1" class="homeSlide">
+					<div class="bcg" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -300px;"	data-anchor-target="#slide-1">
+						<div class="hsContainer">
+							<div class="container">
+								<div class="row">
+									<div class="slider-item">
+										<div class="caption text-white">
+											<h1 class="wow fadeInDown" data-wow-delay=".3s" style="font-size: 62px"><span>Hi</span>
+											<br />
+											<span>I'm John</span></h1>
+											<p class="subheading text-uppercase wow fadeInUp" data-wow-delay=".3s">
+												<span>Interested About</span>
+												<br />
+												<span>Latest Web Design Trends</span>
+											</p>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
+				</section>
 			</header>
 		</section>
 		<!-- ————————————————————————————————————————————
 		———	about
 		—————————————————————————————————————————————— -->
-		<section class="about" id="about" style="background-image: url('images/about.png');">
+		<section class="about" id="about" style="">
 			<div class="container">
-				<div class="row m-v-xxl about-item">
-					<div class="col-md-6 col-md-offset-5">
-						<div class=" ">
-							<h2 class="text-sky">About Me</h2>
-							<p class="text-ash text-xxs">
-								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-							</p>
-							<p class="text-ash text-xxs">
-								It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-							</p>
-							<img src="images/sign.png" alt="sign" />
+				<div class="row about-item">
+					<div class="col-md-5">
+						<div class="about-image">
+							<img class="img-responsive wow fadeInLeft" data-wow-delay=".3s" src="images/model-3.png" />
 						</div>
 					</div>
-					<div class="col-md-1">
-						<div class="sign p-t-xxl">
-							<ul class="text-dark-dk list-unstyled">
-								<li>
-									<a href=""><i class="fa fa-facebook-f"></i></a>
-								</li>
-								<li>
-									<a href=""><i class="fa fa-twitter"></i></a>
-								</li>
-								<li>
-									<a href=""> <i class="fa fa-google-plus"></i></a>
-								</li>
-								<li>
-									<a href=""><i class="fa fa-linkedin"></i></a>
-								</li>
-								<li>
-									<a href=""><i class="fa fa-dribbble"></i></a>
-								</li>
-								<li>
-									<a href=""><i class="fa fa-behance"></i></a>
-								</li>
+					<div class="col-md-7">
+						<div class="row p-t-xxl">
+							<div class="col-sm-9 col-xs-8">
+								<h2 class="">About Me</h2>
+								<div class="about-details p-v-xxl">
+									<p class="text-ash text-xxs">
+										Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+									</p>
+									<p class="text-ash text-xxs">
+										It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+									</p>
+								</div>
+								<img src="images/sign.png" alt="sign" />
+							</div>
+							<div class="col-sm-3 col-xs-4">
+								<div class="about-social m-t-xxl">
+									<ul class="text-dark-dk list-unstyled">
+										<li>
+											<a href=""><i class="fa fa-facebook-f"></i></a>
+										</li>
+										<li>
+											<a href=""><i class="fa fa-twitter"></i></a>
+										</li>
+										<li>
+											<a href=""> <i class="fa fa-google-plus"></i></a>
+										</li>
+										<li>
+											<a href=""><i class="fa fa-linkedin"></i></a>
+										</li>
+										<li>
+											<a href=""><i class="fa fa-dribbble"></i></a>
+										</li>
+										<li>
+											<a href=""><i class="fa fa-behance"></i></a>
+										</li>
 
-							</ul>
+									</ul>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -148,10 +163,10 @@
 		<section class="designer" id="">
 			<div class="shadow">
 				<div class="container">
-					<h2 class="text-sky p-v-lg">Design with</h2>
+					<h2 class="text-white p-v-lg text-center">Design with <span class="text-sky" style="font-size: 10px;"><i class="fa fa-dot-circle-o"></i></span></h2>
 					<div class="row m-b-xxl">
 						<div class="col-md-4 col-sm-4">
-							<div class="design-item">
+							<div class="design-item wow fadeInLeft">
 								<img src="images/design1.jpg">
 								<div class="mask">
 									<h2>Creative Mind</h2>
@@ -163,7 +178,7 @@
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4">
-							<div class="design-item">
+							<div class="design-item wow fadeInUp" >
 								<img src="images/design2.jpg">
 								<div class="mask">
 									<h2>Skilled Hand</h2>
@@ -175,7 +190,7 @@
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4">
-							<div class="design-item">
+							<div class="design-item wow fadeInRight">
 								<img src="images/design3.jpg">
 								<div class="mask">
 									<h2>Innovative Idea</h2>
@@ -195,8 +210,8 @@
 		—————————————————————————————————————————————— -->
 		<section class="bg-white p-v-xxl">
 			<div class="container">
-				<h1 class="text-sky">Skills</h1>
-				<div class="row text-center">
+				<h1 class="text-center">Skills <span class="text-sky" style="font-size: 10px;"><i class="fa fa-dot-circle-o"></i></span></h1>
+				<div class="row text-center p-v-xl">
 					<div class="col-md-3 p-b-md">
 						<div data-value="0.85" data-thickness="2" class="circle1">
 							<strong>85%</strong>
@@ -224,15 +239,49 @@
 				</div>
 			</div>
 		</section>
-
+		<!-- ————————————————————————————————————————————
+		———	Project count
+		—————————————————————————————————————————————— -->
+		<section class="gain">
+			<div class="shadow p-v-xxl">
+				<div class="container text-white" style="position: relative">
+					<div class="row text-center">
+						<div class="col-sm-3">
+							<p style="position:relative;" class="p-v">
+								Projects Completed
+							</p>
+							<h1 class="jumbo" id="ele1">0</h1>
+						</div>
+						<div class="col-sm-3">
+							<p style="position:relative;" class="p-v">
+								Happy Clients
+							</p>
+							<h1 class="jumbo" id="ele2">0</h1>
+						</div>
+						<div class="col-sm-3">
+							<p style="position:relative;" class="p-v">
+								Cup of Coffee
+							</p>
+							<h1 class="jumbo" id="ele3">0</h1>
+						</div>
+						<div class="col-sm-3">
+							<p style="position:relative;" class="p-v">
+								Ongoing
+							</p>
+							<h1 class="jumbo" id="ele4">0</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 		<!-- ————————————————————————————————————————————
 		———	Portfolios
 		—————————————————————————————————————————————— -->
 		<section class="portfolio">
 			<div class="container-fluid">
-				<div class="row">
+				<div class="row p-t-xxl">
 					<div class="container">
-						<h1 class="text-sky">Some of my awesome work</h1>
+						<h1 class="text-center">Works <span class="text-sky" style="font-size: 10px;"><i class="fa fa-dot-circle-o"></i></span></h1>
 					</div>
 					<div class="portfolio-item m-t-xl">
 						<img class="img-responsive" src="images/work5.jpg" alt="work" />
@@ -260,9 +309,9 @@
 		—————————————————————————————————————————————— -->
 		<section class="client" id="client">
 			<div class="shadow">
-				<div class="container">
-					<div class="row p-v-xxl">
-						<h1 class="text-white text-center m-b-xl">Some of my awesome clients</h1>
+				<div class="container  p-v-xxl">
+					<h1 class="text-white text-center ">Clients <span class="text-sky" style="font-size: 10px;"><i class="fa fa-dot-circle-o"></i></span> </h1>
+					<div class="row p-v-lg">
 						<div class="col-md-8 col-md-offset-2">
 							<div class="owl-carousel">
 								<div class="item">
@@ -418,11 +467,13 @@
 
 							</ul>
 						</div>
-						
+
 					</div>
 				</div>
 			</div>
-			<p class="text-ash-lt text-xs bg-black p-v text-center">Copyright 2016 | Designed by Rahad</p>
+			<p class="text-ash-lt text-xs bg-black p-v text-center">
+				Copyright 2016 | Designed by Rahad
+			</p>
 		</footer>
 		<!-- ————————————————————————————————————————————
 		———	JS
@@ -432,8 +483,37 @@
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/circle-progress.min.js"></script>
 		<script src="js/owl.carousel.js"></script>
+		<script src="js/in-view.min.js"></script>
 		<script src="js/wow.min.js"></script>
+		<script src="js/countUp.js"></script>
+		<script src="js/skrollr.min.js"></script>
 		<script src="js/script.js"></script>
+
+		<script type="text/javascript">
+			// set CountUp options
+			// you don't need to do this - you can use the default options
+			var useOnComplete = true, useEasing = true, easingFn = null, useGrouping = true, options = {
+				useEasing : useEasing, // toggle easing
+				easingFn : easingFn, // defaults to easeOutExpo, but you can specify your own
+				useGrouping : useGrouping, // 1,000,000 vs 1000000
+				separator : ',', // character to use as a separator
+				decimal : '.', // character to use as a decimal
+			};
+			var demo, code, data, stars, easingFunctions;
+			// create instance
+			window.onload = function() {
+				// setup CountUp object
+				var demo1 = new CountUp("ele1", 0, 75, 0, 2.5, options);
+				var demo2 = new CountUp("ele2", 0, 74, 0, 2.5, options);
+				var demo3 = new CountUp("ele3", 0, 66, 0, 2.5, options);
+				var demo4 = new CountUp("ele4", 0, 32, 0, 2.5, options);
+				demo1.start();
+				demo2.start();
+				demo3.start();
+				demo4.start();
+			};
+
+		</script>
 
 	</body>
 </html>

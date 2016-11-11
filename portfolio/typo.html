@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Portfolio | 2016</title>
+
+		<!-- ————————————————————————————————————————————
+		———	CSS
+		—————————————————————————————————————————————— -->
+		<link  rel="stylesheet" href="css/bootstrap.min.css">
+		<link  rel="stylesheet" href="css/animate.css">
+		<link  rel="stylesheet" href="css/font-awesome.min.css">
+		<link  rel="stylesheet" href="css/ssl.css">
+		<link  rel="stylesheet" href="css/app.css">
+		<link  rel="stylesheet" href="css/typo.css">
+
+		<!-- ————————————————————————————————————————————
+		———	Fonts
+		—————————————————————————————————————————————— -->
+
+		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800" rel="stylesheet">
+
+	</head>
+	<body data-spy="scroll" data-target="#bs-example-navbar-collapse-1">
+
+		<!-- ————————————————————————————————————————————
+		———	start
+		—————————————————————————————————————————————— -->
+		<section id="slide-1" class="homeSlide">
+			<div class="bcg" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -300px;"	data-anchor-target="#slide-1">
+				<div class="hsContainer">
+					<div class="hsContent" data-center="opacity: 1"	data-106-top="opacity: 0" data-anchor-target="#slide-1 h2">
+						<h2>Fade out elements before
+						<br>
+						they leave viewport</h2>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ————————————————————————————————————————————
+		———	Portfolios
+		—————————————————————————————————————————————— -->
+		<section class="works wow fadeInUp">
+			<ul class="list-unstyled">
+				<li>
+					<figure><img src="images/work5.jpg" alt="Image" class="image">
+						<figcaption>
+							<div class="table-middle">
+								<div class="inner">
+									<a href="images/work5.jpg" class="fancybox"> <h3>FRUIT OF THE LOOM</h3> <small>Bag Post Design</small> <img src="images/shape-gray-wave.png" alt="Image" class="wave"> </a>
+								</div>
+								<!-- end inner -->
+							</div>
+							<!-- end table-middle -->
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure><img src="images/work6.jpg" alt="Image" class="image">
+						<figcaption>
+							<div class="table-middle">
+								<div class="inner">
+									<a href="images/work6.jpg" class="fancybox"> <h3>FRUIT OF THE LOOM</h3> <small>Bag Post Design</small> <img src="images/shape-gray-wave.png" alt="Image" class="wave"> </a>
+								</div>
+								<!-- end inner -->
+							</div>
+							<!-- end table-middle -->
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure><img src="images/work7.jpg" alt="Image" class="image">
+						<figcaption>
+							<div class="table-middle">
+								<div class="inner">
+									<a href="images/work7.jpg" class="fancybox"> <h3>FRUIT OF THE LOOM</h3> <small>Bag Post Design</small> <img src="images/shape-gray-wave.png" alt="Image" class="wave"> </a>
+								</div>
+								<!-- end inner -->
+							</div>
+							<!-- end table-middle -->
+						</figcaption>
+					</figure>
+				</li>
+			</ul>
+		</section>
+		<!-- end works -->
+		<section class="stats">
+			<div class="container" style="position: relative">
+				<div class="row text-center">
+					<div class="col-sm-3">
+						<p style="position:relative;" class="p-v">
+							Projects Completed
+						</p>
+						<h1 class="jumbo text-sky" id="ele1">0</h1>
+					</div>
+					<div class="col-sm-3">
+						<p style="position:relative;" class="p-v">
+							Happy Clients
+						</p>
+						<h1 class="jumbo text-sky" id="ele2">0</h1>
+					</div>
+					<div class="col-sm-3">
+						<p style="position:relative;" class="p-v">
+							Cup of Coffee
+						</p>
+						<h1 class="jumbo text-sky" id="ele3">0</h1>
+					</div>
+					<div class="col-sm-3">
+						<p style="position:relative;" class="p-v">
+							Ongoing
+						</p>
+						<h1 class="jumbo text-sky" id="ele4">0</h1>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<script type="text/javascript">
+			// set CountUp options
+			// you don't need to do this - you can use the default options
+			var useOnComplete = true, useEasing = true, easingFn = null, useGrouping = true, options = {
+				useEasing : useEasing, // toggle easing
+				easingFn : easingFn, // defaults to easeOutExpo, but you can specify your own
+				useGrouping : useGrouping, // 1,000,000 vs 1000000
+				separator : ',', // character to use as a separator
+				decimal : '.', // character to use as a decimal
+			};
+			var demo, code, data, stars, easingFunctions;
+
+			var easingFn = function(t, b, c, d) {
+				var ts = (t /= d) * t;
+				var tc = ts * t;
+				return b + c * (tc + -3 * ts + 3 * t);
+			}
+			// create instance
+			window.onload = function() {
+				// setup CountUp object
+				var demo1 = new CountUp("ele1", 0, 75, 0, 2.5, options);
+				var demo2 = new CountUp("ele2", 0, 74, 0, 2.5, options);
+				var demo3 = new CountUp("ele3", 0, 66, 0, 2.5, options);
+				var demo4 = new CountUp("ele4", 0, 32, 0, 2.5, options);
+				demo1.start();
+				demo2.start();
+				demo3.start();
+				demo4.start();
+			};
+
+		</script>
+
+		<!-- ————————————————————————————————————————————
+		———	JS
+		—————————————————————————————————————————————— -->
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/circle-progress.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/countUp.js"></script>
+		<script src="js/skrollr.min.js"></script>
+		<script src="js/script.js"></script>
+		<script type="text/javascript">
+			(function($) {
+				// Init Skrollr
+				var s = skrollr.init({
+					render : function(data) {
+						//Debugging - Log the current scroll position.
+						//console.log(data.curTop);
+					}
+				});
+			} )(jQuery);
+		</script>
+	</body>
+</html>
