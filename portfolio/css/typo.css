@@ -1,0 +1,119 @@
+.works {
+	width: 100%;
+	float: left;
+}
+.works * {
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	transition-duration: 500ms;
+	-webkit-transition-duration: 500ms;
+	transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+	-webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1)
+}
+.works .filter {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.works .filter li {
+	display: inline-block;
+}
+.works ul {
+	width: 100%;
+	float: left;
+}
+.works ul li {
+	width: 33.333333%;
+	float: left;
+}
+.works ul li.double {
+	width: 66.66666%;
+}
+.works ul li figure {
+	width: 100%;
+	position: relative;
+	background: #2f312f;
+	overflow: hidden;
+}
+.works ul li figure .image {
+	width: 100%;
+}
+.works ul li figure figcaption {
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	text-align: center;
+	padding-top: 10%;
+	background: rgba(0,207,82,0.9);
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.works ul li figure figcaption {
+	-webkit-transform: scale(1.20);
+	-ms-transform: scale(1.20);
+	transform: scale(1.20);
+	opacity: 0;
+	visibility: hidden;
+}
+.works ul li figure figcaption a {
+	width: 100%;
+	height: 100%;
+	color: #fff;
+}
+.works ul li figure figcaption h3 {
+	width: 100%;
+	float: left;
+	font-weight: 600;
+	font-size: 30px;
+	margin-top: 0;
+}
+.works ul li figure figcaption small {
+	width: 100%;
+	float: left;
+	padding-bottom: 10px;
+	font-size: 18px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.works ul li figure figcaption .wave {
+	-webkit-filter: brightness(-1) invert(1);
+	filter: brightness(-1) invert(1);
+}
+.works ul li:hover figcaption {
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+	visibility: visible;
+}
+.works ul li:hover figure img {
+	-webkit-transform: scale(1.20);
+	-ms-transform: scale(1.20);
+	transform: scale(1.20);
+}
+
+
+/* CSS */
+
+.hsContainer {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 660px;
+    overflow: hidden;
+    position: relative;
+    opacity: 0;
+}
+
+.bcg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+/* Slide 1 */
+#slide-1 .bcg {background-image:url('../images/bcg_slide-1.jpg')}
+
