@@ -1,0 +1,70 @@
+.stats {
+	margin-top: 700px;	
+}
+
+.fun_text > a::before {
+  border-bottom: 30px solid #2bcdc1;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  top: -30px;
+  width: 0;
+}
+.fun_text > a::after {
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 30px solid #2bcdc1;
+  bottom: -30px;
+  content: "";
+  height: 0;
+  left: 0;
+  position: absolute;
+  width: 0;
+}
+.fun_text > a {
+  background: #2bcdc1 none repeat scroll 0 0;
+  color: #fff;
+  display: inline-block;
+  font-size: 40px;
+  height: 50px;
+  line-height: 49px;
+  margin-bottom: 40px;
+  position: relative;
+  width: 100px;
+}
+.fun_text span {
+  color: #000;
+  display: block;
+  font-size: 40px;
+  font-weight: 600;
+  padding: 25px 0;
+}
+.fun_text > h6 {
+  color: #000;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+    /*h1, h3 {
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    h3 {
+        margin-bottom: 30px;
+        color: #999;
+    }
+    span {
+        font-size: 66px;
+        color: #555;
+        margin-bottom: 350px;
+        display: inline-block;
+        font-weight: 400;
+        text-align: center;
+    }
+    span > span {
+        margin-bottom: 0;
+    }*/
