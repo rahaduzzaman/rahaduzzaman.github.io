@@ -42,6 +42,7 @@ body {
 }
 
 /*^^^^^^^^^^^ Slider-content-style ^^^^^^^^^^^^^^^*/
+
 .slider .logo-img {
 	position: relative;
 	display: block;
@@ -123,6 +124,28 @@ body {
 	cursor: pointer;
 	background-color: transparent;
 	border: 1px solid #FFFFFF;
+}
+
+@media (max-width: 360px) {
+	.container {
+		max-width: 300px;
+	}
+	.slider .logo-img {
+		margin-top: 40px;
+		overflow: hidden;
+		width: 70px;
+	}
+	.slider .logo-img img {
+		width: 100%;
+	}
+	.slider .titlr-text h1 {
+	  font-size: 44px;
+	  font-weight: 300;
+	  margin-top: 30px;
+	}
+	.console .content .details {
+	  margin-bottom: 30px;
+	}
 }
 /*^^^^^^^^^^^ Console-content-style ^^^^^^^^^^^^^^^*/
 .console {
