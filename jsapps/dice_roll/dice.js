@@ -7,5 +7,5 @@ Dice.prototype.roll = function(){
   return randomNumber;
 };
 
-var dice = new Dice(6);
+var dice = new Dice();
 
