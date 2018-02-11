@@ -1,17 +1,9 @@
 function Song(title, artist, duration) {
-	this.title = title;
+	Media.call(this, title, duration); //Get the media constructor property to the Song Constructor
 	this.artist = artist;
-	this.duration  = duration;
-	this.playing = false;
 }
-
-Song.prototype.play = function() {
-	this.playing = true;
-};
-
-Song.prototype.stop = function() {
-	this.playing = false;
-};
+// Inherit the media function properties to the Song
+Song.prototype = Object.create(Media.prototype); 
 
 Song.prototype.toHTML = function() {
 	var htmlString  = '<li ';

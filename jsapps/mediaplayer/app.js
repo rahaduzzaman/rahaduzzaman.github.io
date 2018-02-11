@@ -3,8 +3,11 @@ var playlist = new Playlist();
 var song1 = new Song('Love Me Like You do', 'Ellie', '4.06');
 var song2 = new Song('Shape Of You', 'Ed Sheeran', '3.42');
 
+var movie1 = new Song('MI5', '2013', '1:50');
+
 playlist.add(song1);
 playlist.add(song2);
+playlist.add(movie1);
 
 var listElm = document.getElementById('playlist');
 playlist.renderIn(listElm);
