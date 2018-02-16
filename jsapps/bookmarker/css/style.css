@@ -85,3 +85,12 @@ body {
   font-size: 12px;
   color: #777;
 }
+
+/* ==== ====*/
+.single-bookmark {
+  padding: 40px;
+  border: 1px solid #e5e5e5;
+  background: #f5f5f5;
+  margin: 10px 0;
+  border-radius: 8px;
+}
